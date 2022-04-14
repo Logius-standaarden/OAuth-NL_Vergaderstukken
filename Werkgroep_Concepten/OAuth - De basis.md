@@ -2,22 +2,22 @@
 
 ## Inleiding
 
-Onlangs kregen we de vraag of er meer basisinformatie is over OAuth 2.0. Een heel begrijpelijke vraag. De huidige standaard die door het forum standaardisatie op de lijst van verplichte standaarden is gezet vereist namelijk deze basiskennis om te begrijpen wat de standaard nu eigenlijk verlicht stelt.
+Onlangs kregen we de vraag of er meer basisinformatie is over OAuth 2.0. Een heel begrijpelijke vraag. De huidige standaard die door het forum standaardisatie op de lijst van verplichte standaarden is gezet vereist namelijk deze basiskennis om te begrijpen wat de standaard nu eigenlijk verplicht stelt.
 
-Een deel van het antwoord zit m al in de formele naamgeving van de standaard. Het betreft namelijk een profiel ofwel een vastgestelde configuratieflow voor de Nederlandse overheden op de formele OAuth 2.0 standaard.
+Een deel van het antwoord zit m al in de formele naamgeving van de standaard. Het betreft namelijk een profiel ofwel een vastgestelde configuratie flow voor de Nederlandse overheden op de formele OAuth 2.0 standaard.
 
 
 
 ## Context
 
-OAuth 2.0 is een authorizatieframework wat het mogelijk maakt om gecontroleerde toegang te krijgen tot gebruikersaccounts op een HTTP service zoals bijvoorbeeld Google, Facebook, Spotify etc. De standaard werkt op basis van het delegeren van de user authentication aan de service die het user account host en door applicaties van derden te authoriseren om het user account te hergebruiken. Hierdoor kunnen gebruikersrechten of -gegevens met een website of applicatie gedeeld worden zonder wachtwoorden te delen.
+OAuth 2.0 is een authorizatieframework wat het mogelijk maakt om gecontroleerde toegang te krijgen tot gebruikersaccounts op een HTTP service zoals bijvoorbeeld Google, Facebook, Spotify etc. De standaard werkt op basis van het delegeren van de user authentication aan de service die het user account host en door applicaties van derden te autoriseren om het user account te hergebruiken. Hierdoor kunnen gebruikersrechten of -gegevens met een website of applicatie gedeeld worden zonder wachtwoorden te delen.
 
 Deze interactie wordt altijd beschreven in een flow. Het Nederlandse profiel beschrijft alle aspecten van de door ons gewenste flow(s). Momenteel is alleen de Authorization Code Flow onderdeel van het Nederlandse profiel. Later meer hierover. Een aantal aspecten zijn wel essentieel en dus ook randvoorwaardelijk voor een gebruikelijke autorisatie op basis van OAuth 2.0:
 
 1. een <u>*user*</u> met een <u>*account*</u> : bijvoorbeeld example@logius.nl
 2. een <u>*authorization service*</u> : waar de user zich kan identificeren en authenticeren : bijvoorbeeld Facebook/Apple/Google
 3. een <u>*resource service*</u> : waar de inhoudelijke vraag aan wordt gesteld en waar de data/resources zijn opgeslagen : bijvoorbeeld Spotify
-4. een <u>*client applicatie*</u> : waarmee de user z'n account gegevens invult en de vraag stelt aan de authorization service en de resource service : bijvoorbeeld de Spotify app of een testtool als Postman.
+4. een <u>*client applicatie*</u> : waarmee de user z'n account gegevens invult en de vraag stelt aan de authorization service en de resource service : bijvoorbeeld de Spotify app of een test tool als Postman.
 
 ### In onderstaand schema zijn de vier bovenstaande elementen en de onderlinge flow weergegeven:
 
@@ -34,7 +34,7 @@ Deze interactie wordt altijd beschreven in een flow. Het Nederlandse profiel bes
 
 ## Voorbeeld
 
-Zoals al aangegeven in de context werkt een voorbeeld het beste. In onderstaand schema is het voorbeeld opgenomen van Spotify waarbij een user, in dit geval example@logius.nl, inlogt op de Spotify webclient. Het voorbeeld gebruikt de authorization server van Spotify zelf om een token te verkrijgen en daarna kan de user zn persoonlijke gegevens, afspeellijsten en muziek opvragen bij de Spotify API.
+Zoals al aangegeven in de context werkt een voorbeeld het beste. In onderstaand schema is het voorbeeld opgenomen van Spotify waarbij een user, in dit geval example@logius.nl, inlogt op de Spotify webclient. Het voorbeeld gebruikt de authorization server van Spotify zelf om een token te verkrijgen en daarna kan de user z'n persoonlijke gegevens, afspeellijsten en muziek opvragen bij de Spotify API.
 
 ![Spotify_login](./OAuth-Authorization_Code_Flow_Example.svg)
 
