@@ -34,7 +34,7 @@ Deze standaard beschrijft vereisten voor de API (Resource Server), Authorization
 - Clients moeten de volledige redirect URI meesturen in het verzoek aan de Authorization server ([§  2.3](https://publicatie.centrumvoorstandaarden.nl/api/oauth/v1.0/#connection-to-the-authorization-server))
 - De Authorization Server moet de redirect URI controleren ten opzichte van de URI die vooraf is geregistreerd door de Client ([§  2.3](https://publicatie.centrumvoorstandaarden.nl/api/oauth/v1.0/#connection-to-the-authorization-server))
 - Native Clients moeten PCKE toepassen ([§  2.3](https://publicatie.centrumvoorstandaarden.nl/api/oauth/v1.0/#connection-to-the-authorization-server))
-- Wanneer de API, Client en Authorisation Server niet onder verantwoordelijkheid vallen van één organisatie moeten PIKOverheid certificaten worden gebruikt (met OIN) ([§  2.3.4](https://publicatie.centrumvoorstandaarden.nl/api/oauth/v1.0/#client-keys))
+- Wanneer de API, Client en Authorisation Server niet onder verantwoordelijkheid vallen van één organisatie moeten PKIOverheid certificaten worden gebruikt (met OIN) ([§  2.3.4](https://publicatie.centrumvoorstandaarden.nl/api/oauth/v1.0/#client-keys))
 - Clients moeten autorisatie requests over TLS sturen en moeten het certificaat van de API verifiëren ([§  2.4](https://publicatie.centrumvoorstandaarden.nl/api/oauth/v1.0/#connection-to-the-protected-resource))
 
 ### 3. Authorization Server profiel
@@ -52,7 +52,7 @@ Deze standaard beschrijft vereisten voor de API (Resource Server), Authorization
 
 ### 4. Protected Resource (API) profiel
 
-- De API geeft de Client toegang wanneer deze een geldig access token en de correcte Scope heeft. De API vertrouwt erop dat de Authorization Server de security en access control waarborgt ([§  4.1](https://publicatie.centrumvoorstandaarden.nl/api/oauth/v1.0/#protecting-resources))
+- De API geeft de Client toegang wanneer deze een geldig access token en de correcte Scope heeft. De API vertrouwd erop dat de Authorization Server de security en access control borgt ([§  4.1](https://publicatie.centrumvoorstandaarden.nl/api/oauth/v1.0/#protecting-resources))
 - De API (met vertrouwelijke data) die een hoger vertrouwensniveau vereist van de eindgebruiker moet de data alleen beschikbaar stellen binnen een unieke Scope ([§  4.1](https://publicatie.centrumvoorstandaarden.nl/api/oauth/v1.0/#protecting-resources))
 - De Client die vertrouwelijke data wil opvragen bij de API moet een hoger vertrouwensniveau Scope meegeven in het verzoek aan de Authorization Server ([§  4.1](https://publicatie.centrumvoorstandaarden.nl/api/oauth/v1.0/#protecting-resources))
 - De Authorization Server moet de authenticatie van de eindgebruiker op het juiste vertrouwensniveau vaststellen ([§  4.1](https://publicatie.centrumvoorstandaarden.nl/api/oauth/v1.0/#protecting-resources))
@@ -64,8 +64,8 @@ Deze standaard beschrijft vereisten voor de API (Resource Server), Authorization
 
 ### 6. Security overwegingen
 
-- Alle transacties moeten worden versleuteld met TLS en het is aanbevolen om hierbij de richtlijken van het NCSC op te volgen ([§  6](https://publicatie.centrumvoorstandaarden.nl/api/oauth/v1.0/#security-considerations))
+- Alle transacties moeten worden versleuteld met TLS en het is aanbevolen om hierbij de richtlijnen van het NCSC op te volgen ([§  6](https://publicatie.centrumvoorstandaarden.nl/api/oauth/v1.0/#security-considerations))
 
 ## !! Disclaimer
 
-Deze samenvatting is een interpretatie van de standaard en is niet volledig in de opsomming of beschrijving van alle vereisten. Wanneer de standaard moet worden geimplementeerd dient altijd de officiële en actuele  standaard te worden gebruikt zoals gepubliceerd door het Forum Standaardisatie op: https://forumstandaardisatie.nl/open-standaarden/nl-gov-assurance-profile-oauth-20.
+Deze samenvatting is een interpretatie van de standaard en is niet volledig in de opsomming of beschrijving van alle vereisten. Wanneer de standaard moet worden geïmplementeerd dient altijd de officiële en actuele  standaard te worden gebruikt zoals gepubliceerd door het Forum Standaardisatie op: https://forumstandaardisatie.nl/open-standaarden/nl-gov-assurance-profile-oauth-20.
