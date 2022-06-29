@@ -12,8 +12,9 @@ De concept agenda van het overleg is:
    1. Publicaties op pleio, zie ook https://digistandaarden.pleio.nl/blog;
    2. verwijzing in de Security extensie (API-52) https://github.com/Geonovum/KP-APIs/blob/master/API-strategie-extensies/ext-security.md#authorization;
    3. vragen over toepassingsgebied. zie ook agendapunt 5;
-   4. Status MIDO en programmeringstafels.
-
+   4. Status MIDO en programmeringstafels;
+   5. Opzet SemVer als toevoeging voor de governance.
+   
 3. Vaststellen [notulen vorig overleg](https://github.com/Logius-standaarden/OAuth-NL_Vergaderstukken/blob/main/20211222/Verslag.md).
 
 4.	RFC's / merge requests, zie ook  https://github.com/Logius-standaarden/OAuth-NL-profiel/issues:
