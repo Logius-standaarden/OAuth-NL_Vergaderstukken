@@ -22,7 +22,7 @@ De concept agenda van het overleg is:
    - Issue [#8](https://github.com/Logius-standaarden/OAuth-NL-profiel/issues/8) heeft geleid tot [MR 20](https://github.com/Logius-standaarden/OAuth-NL-profiel/pull/20) en deze is inmiddels verwerkt in de development branch;
    - Issue [#11](https://github.com/Logius-standaarden/OAuth-NL-profiel/issues/1) wordt niet gesloten na toelichting maar er is een voorstel om dit te verduidelijken met een aanvulling in NL-Gov additionele content.
 
-5.	Verbeterde opmaak voor versie 1.1, zie ook [https://logius-standaarden.github.io/Publicatie-Preview/OAuth-NL-profiel/sotd/#conformance](https://logius-standaarden.github.io/Publicatie-Preview/OAuth-NL-profiel/examples/).
+5.	Verbeterde opmaak voor versie 1.1, zie ook https://logius-standaarden.github.io/OAuth-NL-profiel/
 
 6.	Discussie mogelijke verbetering toepassingsgebied op de pas-toe-leg-uit lijst:
    - toelichting voor inkopers;
