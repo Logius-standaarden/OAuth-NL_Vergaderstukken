@@ -17,7 +17,7 @@ De concept agenda van het overleg is:
    
 3. Vaststellen [notulen vorig overleg](https://github.com/Logius-standaarden/OAuth-NL_Vergaderstukken/blob/main/20211222/Verslag.md).
 
-4.	RFC's / merge requests, zie ook  https://github.com/Logius-standaarden/OAuth-NL-profiel/issues:
+4.RFC's / merge requests, zie ook  https://github.com/Logius-standaarden/OAuth-NL-profiel/issues:
    - Issue [#7](https://github.com/Logius-standaarden/OAuth-NL-profiel/issues/7) heeft geleid tot [MR 21](https://github.com/Logius-standaarden/OAuth-NL-profiel/pull/21);
    - Issue [#8](https://github.com/Logius-standaarden/OAuth-NL-profiel/issues/8) heeft geleid tot [MR 20](https://github.com/Logius-standaarden/OAuth-NL-profiel/pull/20) en deze is inmiddels verwerkt in de development branch;
    - Issue [#11](https://github.com/Logius-standaarden/OAuth-NL-profiel/issues/11) wordt niet gesloten na toelichting maar er is een voorstel om dit te verduidelijken met een aanvulling in NL-Gov additionele content.
